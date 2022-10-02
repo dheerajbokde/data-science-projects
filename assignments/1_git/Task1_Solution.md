@@ -94,9 +94,22 @@ Example: git push origin main
 ![image](https://user-images.githubusercontent.com/5664029/193442082-9aa5275e-45c8-4d0c-9b4f-1f8bc718d57a.JPG)
 
 ### 13. fetch
-- to bring changes from remote repo and allow us to review and resolve any
-conflict and after that we can manually commit the new changes
+- to bring changes from remote repo and allow us to review and resolve any conflict and after that we can manually commit the new changes
 ```git
 Example: git fetch origin
 ```
 ![image](https://user-images.githubusercontent.com/5664029/193442778-a20db54f-2905-4f79-ac3c-989e27d6de9d.JPG)
+
+### 14. reset
+- reset current HEAD to the specified state i.e., commit
+```git
+Example: git reset --hard e1b17ff7333680abe816fc119e87ffdcc15c9587
+```
+![image](https://user-images.githubusercontent.com/5664029/193444943-409b4427-c342-4fc9-addc-fd7e9f035248.JPG)
+
+### 15. stash
+- takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy
+```git
+Example: git stash
+```
+![image](https://user-images.githubusercontent.com/5664029/193445214-26758072-c654-4502-8b58-f2a16fc5dd0b.JPG)
