@@ -57,7 +57,7 @@ Example: git checkout ast_git
 ```git
 Example: git status
 ```
-![image](https://user-images.githubusercontent.com/5664029/193441637-5e172a94-8704-4d5f-adec-2efa8ee34ed7.JPG)
+![image](https://user-images.githubusercontent.com/5664029/193445687-1b0d1dbf-b54b-48f2-a752-1310e0e2b031.JPG)
 
 ### 9. add 
 - to stage the contents of all/selected files under the current directory
@@ -65,7 +65,7 @@ Example: git status
 Example: 
 git add . #to stage all changes
 ```
-![image](https://user-images.githubusercontent.com/5664029/193441993-6fa81df3-c37a-44c5-85e8-20aecea813f9.JPG)
+![image](https://user-images.githubusercontent.com/5664029/193445792-1a0d3456-9d23-4164-b1a8-fd85b5e35a8f.JPG)
 ```git 
 Example: 
 git add assignmets/README.md #to stage one or multiple files
@@ -82,16 +82,16 @@ Example: git restore assignmets/README.md
 ### 11. commit 
 - to permanently store the contents of the index with a meaningful message
 ```git
-Example: git commit -m "added assignments readme"
+Example: git commit -m "assignment task 1 updated"
 ```
-![image](https://user-images.githubusercontent.com/5664029/193442042-d22a923e-659f-45e1-ac93-af1ecb998110.JPG)
+![image](https://user-images.githubusercontent.com/5664029/193445704-ecd5da62-ed88-4f62-bd63-004db35ee0f4.JPG)
 
 ### 12. push 
 - to push the committed changes to remote repository
 ```git
-Example: git push origin main
+Example: git push origin ast_git
 ```
-![image](https://user-images.githubusercontent.com/5664029/193442082-9aa5275e-45c8-4d0c-9b4f-1f8bc718d57a.JPG)
+![image](https://user-images.githubusercontent.com/5664029/193445741-34d4233b-80fd-4e86-9af7-e6c24e79f189.JPG)
 
 ### 13. fetch
 - to bring changes from remote repo and allow us to review and resolve any conflict and after that we can manually commit the new changes
