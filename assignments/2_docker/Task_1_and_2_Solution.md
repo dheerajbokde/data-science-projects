@@ -3,7 +3,9 @@
 ### 1. version 
 - to check docker version
 ```git
-Example: docker version
+Example: docker --version
+                or
+         docker -v
 ```
 ![image](https://user-images.githubusercontent.com/5664029/195972046-9826c959-c69f-4912-8bed-306475c63fe0.JPG)
 
