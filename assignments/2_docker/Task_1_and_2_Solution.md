@@ -112,7 +112,7 @@ Example: docker commit 67831ba6f277
 ```
 ![image](https://user-images.githubusercontent.com/5664029/195973051-26e05b12-2958-4af6-a43f-f608cf21e959.JPG)
 
-### 16. tag <image> <new_image>
+### 16. tag <old_image> <new_image>
 - to tag an image
 ```git
 Example: docker tag 64c6baaa3a4e getting-started-local
