@@ -118,3 +118,17 @@ Example: docker commit 67831ba6f277
 Example: docker tag 64c6baaa3a4e getting-started-local
 ```
 ![image](https://user-images.githubusercontent.com/5664029/195973052-5b1a8b3f-e591-438f-8ca2-c84977e350ad.JPG)
+
+### 17. build
+- to build a new docker image
+```git
+Example: docker build -t bokdedheeraj/hello-docker .
+```
+![image](https://user-images.githubusercontent.com/5664029/196032173-ea5b21bd-0115-4a9a-bc4e-55588d965755.png)
+
+### 18. push
+- to push docker image to docker hub
+```git
+Example: docker push bokdedheeraj/hello-docker:latest
+```
+![image](https://user-images.githubusercontent.com/5664029/196032125-0dd487be-c33c-4a7c-babe-743bb269a8d4.png)
